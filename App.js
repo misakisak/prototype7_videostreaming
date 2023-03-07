@@ -1,3 +1,7 @@
+//implemented from the following website
+//https://docs.agora.io/en/interactive-live-streaming/get-started/get-started-sdk?platform=react-native
+
+
 import React, {useRef, useState, useEffect} from 'react';
 import {
     SafeAreaView,
