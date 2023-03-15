@@ -26,7 +26,9 @@ const token = '007eJxTYNj7v3iJ1d8bYv33WKOVjn9awMy5tz73nXShaW7CKv8Pq0QUGJKSU8wNTU
 const uid = 0;
 
 const App = () => {
-    const agoraEngineRef = useRef(IRtcEngine()); // Agora engine instance
+    // const agoraEngineRef = useRef(IRtcEngine()); // Agora engine instance
+    const engine = createAgoraRtcEngine();
+    engine.initialize({appId: 'bcd7144c85a0467084ccf5c84a8a4f75'});
     const [isJoined, setIsJoined] = useState(false); // Indicates if the local user has joined the channel
     const [isHost, setIsHost] = useState(true); // Client role
     const [remoteUid, setRemoteUid] = useState(0); // Uid of the remote user
@@ -188,4 +190,3 @@ const getPermission = async () => {
 
 
 export default App;
-
