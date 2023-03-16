@@ -2879,6 +2879,11 @@ aggregate-error@^3.0.0:
     clean-stack "^2.0.0"
     indent-string "^4.0.0"
 
+agora-react-native-rtm@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/agora-react-native-rtm/-/agora-react-native-rtm-1.5.1.tgz#e1c1cb3ba330b0f4d553859eb30758874763ee76"
+  integrity sha512-docAyX6O5J0eX8RCRAjtn7wUcks/Fq1v3S0w40fR9zf9k3mm+GLCP5kYiCy16p4h2o6v9JUaDQgUsTP/wv/s4g==
+
 ajv-formats@2.1.1, ajv-formats@^2.0.2, ajv-formats@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/ajv-formats/-/ajv-formats-2.1.1.tgz#6e669400659eb74973bbf2e33327180a0996b520"
@@ -8904,10 +8909,10 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
-react-native-agora@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/react-native-agora/-/react-native-agora-4.1.1.tgz#fa1c4ee6f3f23a1d205b527820ddecc961218d3f"
-  integrity sha512-TwqAl2ek2q73CR55LeSEffkZ5sNbrpIvEN5cYi3yi3By8HDU9CHSgpOczwq3uiBTJekdzI10OXg4pRIXkZ/4Bw==
+react-native-agora@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/react-native-agora/-/react-native-agora-4.1.2.tgz#ef2554cd610dfbf52f9ff8c2363db4fcbd03312d"
+  integrity sha512-hdI68BXPYOHT9ndzpBr8d9D6iCrJH8NF5y18bvU4Lqmb7khU0HzyhYj01OBn1tlaL8XiJBtCIhsVPsDvpZoxIQ==
   dependencies:
     buffer "^6.0.3"
     json-bigint "^1.0.0"
